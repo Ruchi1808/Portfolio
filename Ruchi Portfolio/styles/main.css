@@ -13,6 +13,17 @@
     --accent-color: #FFD700;
     --shadow-color: rgba(0, 0, 0, 0.1);
 }
+/* ===== DARK THEME ===== */
+.dark-theme {
+    --primary-color: #38bdf8;
+    --text-color: #e5e7eb;
+    --bg-color: #020617;
+    --secondary-bg: #0f172a;
+    --accent-color: #facc15;
+    --shadow-color: rgba(0, 0, 0, 0.6);
+}
+
+
 
 html {
     scroll-behavior: smooth;
@@ -201,7 +212,7 @@ h2 {
 }
 
 .certificate-item {
-    background: white;
+    background-color: var(--bg-color);
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 0 5px 15px var(--shadow-color);
@@ -240,7 +251,7 @@ h2 {
 
 .certificate-info {
     padding: 1.5rem;
-    background: white;
+    background-color: var(--bg-color);
 }
 
 .certificate-info h3 {
@@ -283,7 +294,7 @@ h2 {
     position: absolute;
     top: 20px;
     right: 30px;
-    color: white;
+    color: var(--text-color);
     font-size: 40px;
     font-weight: bold;
     cursor: pointer;
@@ -414,7 +425,7 @@ h2 {
 #contact-form textarea:focus {
     outline: none;
     border-color: var(--primary-color);
-    background-color: white;
+    background-color: var(--bg-color);
     box-shadow: 0 0 0 3px rgba(64, 112, 244, 0.1);
 }
 
@@ -479,7 +490,7 @@ h2 {
 /* Connect with Me Section */
 .connect-with-me {
     background-color: var(--primary-color);
-    color: white;
+    color: var(--text-color);
     padding: 1.5rem 10%;
     text-align: center;
 }
@@ -492,7 +503,7 @@ h2 {
 .connect-with-me h2 {
     font-size: 1.5rem;
     margin-bottom: 1rem;
-    color: white;
+    color: var(--text-color);
     font-weight: 400;
 }
 
@@ -675,7 +686,7 @@ h2 {
     position: absolute;
     width: 100%;
     max-width: 500px;
-    background: white;
+    background-color: var(--bg-color);
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 0 5px 15px var(--shadow-color);
@@ -749,7 +760,7 @@ h2 {
 .resume-info {
     padding: 1.5rem;
     text-align: center;
-    background: white;
+    background-color: var(--bg-color);
 }
 
 .resume-info h3 {
@@ -809,7 +820,7 @@ h2 {
 }
 
 .about-card {
-    background: white;
+    background-color: var(--bg-color);
     border-radius: 15px;
     padding: 2rem;
     box-shadow: 0 5px 15px var(--shadow-color);
@@ -953,7 +964,7 @@ h2 {
 
 .project-card {
     display: flex;
-    background: white;
+    background-color: var(--bg-color);
     border-radius: 15px;
     overflow: hidden;
     box-shadow: 0 5px 15px var(--shadow-color);
@@ -1128,7 +1139,7 @@ h2 {
 
 .card {
     display: flex;
-    background: white;
+    background-color: var(--bg-color);
     border-radius: 15px;
     overflow: hidden;
     box-shadow: 0 5px 15px var(--shadow-color);
