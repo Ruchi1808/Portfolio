@@ -1,27 +1,22 @@
-/* Reset and Base Styles */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+:root {
+    --primary-color: #3b82f6;        /* soft professional blue */
+    --text-color: #1f2937;           /* dark gray (not pure black) */
+    --bg-color: #ffffff;             /* pure white */
+    --secondary-bg: #f5f8ff;          /* very light blue background */
+    --accent-color: #93c5fd;          /* light blue accent */
+    --shadow-color: rgba(0, 0, 0, 0.08);
 }
 
-:root {
-    --primary-color: #4070F4;
-    --text-color: #2D2E32;
-    --bg-color: #FFFFFF;
-    --secondary-bg: #F9F9F9;
-    --accent-color: #FFD700;
-    --shadow-color: rgba(0, 0, 0, 0.1);
-}
-/* ===== DARK THEME ===== */
+/* ===== DARK THEME (keep elegant, not harsh) ===== */
 .dark-theme {
-    --primary-color: #38bdf8;
+    --primary-color: #60a5fa;
     --text-color: #e5e7eb;
-    --bg-color: #020617;
-    --secondary-bg: #0f172a;
-    --accent-color: #facc15;
+    --bg-color: #0b1120;
+    --secondary-bg: #111827;
+    --accent-color: #93c5fd;
     --shadow-color: rgba(0, 0, 0, 0.6);
 }
+
 
 
 
