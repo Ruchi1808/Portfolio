@@ -1308,4 +1308,16 @@ h2 {
     color: var(--text-color);
     margin-left: 1rem;
 }
+.resume-container.single {
+    display: flex;
+    justify-content: center;
+    height: auto;
+}
+
+.resume-item.single {
+    position: relative;
+    max-width: 520px;
+    opacity: 1;
+    transform: none;
+}
 
